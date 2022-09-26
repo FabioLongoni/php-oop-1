@@ -6,22 +6,41 @@
 
 img {
   width: 100%;
-  height: 435px;
   object-fit: contain;
 }
 
 .main__content {
   padding: 2rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .movies__wrapper {
   display: flex;
+  flex-direction: column;
   gap: 3rem;
   width: 1000px;
   margin: 0 auto;
   justify-content: center;
 }
+.card__movie img {
+  max-width: 350px;
+}
 
 .card__movie {
-  max-width: 350px;
+  box-shadow: 0px 3px 14px 5px rgba(0,0,0,0.44);
+  font-size: 20px;
+  display: flex;
+}
+
+.card__text {
+  padding:3rem;
+}
+.card__text p {
+  padding: 1rem 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
 }
