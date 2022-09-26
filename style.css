@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 435px;
+  object-fit: contain;
+}
+
+.main__content {
+  padding: 2rem;
+}
+
+.movies__wrapper {
+  display: flex;
+  gap: 3rem;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card__movie {
+  max-width: 350px;
+}
